@@ -1,0 +1,8 @@
+server:
+  port : 9191
+  forward-headers-strategy: native
+spring:
+  cloud:
+    azure:
+      active-directory:
+        enabled: true
